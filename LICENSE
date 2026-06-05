@@ -1,6 +1,6 @@
-CATWARE LICENSE
+Breeze LICENSE
 
-Copyright (c) 2025, CatWare Team
+Copyright (c) 2025, Breeze Team
 
 All rights reserved.
 
@@ -10,22 +10,22 @@ The user, by using, redistributing, or showcasing this project, acknowledges and
 
 # Definitions
 
-- CatWare CONFIGURATION FILE: A "custom configuration" for CatWare using the shared scripting API.
+- Breeze CONFIGURATION FILE: A "custom configuration" for Breeze using the shared scripting API.
 - REDISTRIBUTION: Distributing the source code of this project, and any source code dependent on this project, excluding the loadstring (one line of code that fetches this GitHub project and initializes it), and any configurations.
 
 # Terms and Conditions
 
-1. You MAY create your own CatWare configuration file for personal use.
+1. You MAY create your own Breeze configuration file for personal use.
 
-2. You are NOT allowed to share your CatWare configuration file unless you meet the conditions specified in this license.
+2. You are NOT allowed to share your Breeze configuration file unless you meet the conditions specified in this license.
 
-3. If you would like to share your CatWare configuration file, you MUST ask the developers to upload it to this GitHub repository.
+3. If you would like to share your Breeze configuration file, you MUST ask the developers to upload it to this GitHub repository.
 
 4. Your shared configuration MAY NOT be shared anywhere else besides this GitHub repository UNLESS explicitly allowed by the maintainer.
 
-5. You MAY edit the file for ONLY personal usage. You may not share anything that is not a CatWare configuration file.
+5. You MAY edit the file for ONLY personal usage. You may not share anything that is not a Breeze configuration file.
 
-6. You MUST always include the following credit string: `CatWare https://github.com/catwareroblox/catware`
+6. You MUST always include the following credit string: `Breeze: https://github.com/BreezeForRoblox/Breeze`
 
 7. You are NOT allowed to claim authorship of the source code provided in this repository.
 
@@ -54,6 +54,6 @@ The user, by using, redistributing, or showcasing this project, acknowledges and
 The following individuals are currently authorized:
 
 - Venom - @vxrm (GitHub username)
-- CatWare - @catwareroblox (GitHub username)
+- Breeze - @BreezeForRoblox (GitHub username)
 
 By using this product, you accept these terms.

@@ -23,7 +23,7 @@ local playersService = cloneref(game:GetService('Players'))
 local runService = cloneref(game:GetService('RunService'))
 local lplr = playersService.LocalPlayer
 
-for _, v in {'an4rchy', 'an4rchy/configs'} do
+for _, v in {'Breeze', 'Breeze/configs'} do
 	if not isfolder(v) then
 		makefolder(v)
 	end
@@ -31,7 +31,7 @@ end
 
 lib.configSys = {
 	canSave = true,
-	filePath = 'an4rchy/configs/'..game.PlaceId..'.json',
+	filePath = 'Breeze/configs/'..game.PlaceId..'.json',
 	saveCfg = function()
 		if runService:IsStudio() then return end
 		if not lib.configSys.canSave then return end

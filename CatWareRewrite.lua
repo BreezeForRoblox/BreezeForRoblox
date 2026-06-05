@@ -1,7 +1,7 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local Window = WindUI:CreateWindow({
-    Title = "CatWare",
+    Title = "Breeze",
     Icon = "door-open",
     Author = "For roblox.",
 })
@@ -73,8 +73,8 @@ end)
 })
 
 WindUI:Notify({
-    Title = "CatWare",
-    Content = "CatWare loaded successfully. | Venom & More",
+    Title = "Breeze",
+    Content = "Breeze loaded successfully. | Venom & More",
     Duration = 3, -- 3 seconds
     Icon = "bird",
 })

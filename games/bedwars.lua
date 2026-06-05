@@ -1,5 +1,6 @@
-local Library = loadfile("idk/Library.lua")()
-local Animations = loadfile("idk/libraries/Animations.lua")()
+local Library = loadfile("Breeze/Library.lua")()
+local Animations = loadfile("Breeze/libraries/Animations.lua")()
+local Whitelist = loadfile("Breeze/Whitelist.lua")()
 
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")

@@ -1,7 +1,7 @@
-local base = "https://raw.githubusercontent.com/catwareroblox/catware/refs/heads/main//"
+local base = "https://raw.githubusercontent.com/BreezeForRoblox/Breeze/refs/heads/main//"
 
 local function getDownload(file)
-    file = file:gsub('idk/', '')
+    file = file:gsub('Breeze/', '')
 
     local suc, ret = pcall(function()
         return game:HttpGet(base .. file)
@@ -11,7 +11,7 @@ local function getDownload(file)
 end
 
 local function downloadFile(file)
-    file = 'idk/' .. file
+    file = 'Breeze/' .. file
 
     if not isfile(file) then
         writefile(file, getDownload(file))
@@ -25,16 +25,16 @@ end
 local function debugDownloadSuccess(file)
     local File = downloadFile(file)
 
-    if isfile('idk/' .. file) then
-        print('[idk]: Successfully downloaded', file)
+    if isfile('Breeze/' .. file) then
+        print('[Breeze]: Successfully downloaded', file)
     else
-        print('[idk]: Failed to download', file)
+        print('[Breeze]: Failed to download', file)
     end
 
     return File
 end
 
-for i,v in {'idk', 'idk/games', 'idk/configs', 'idk/libraries'} do
+for i,v in {'Breeze', 'Breeze/games', 'Breeze/configs', 'Breeze/libraries'} do
     if not isfolder(v) then
         makefolder(v)
     end

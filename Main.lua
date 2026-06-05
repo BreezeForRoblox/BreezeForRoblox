@@ -1,4 +1,4 @@
-local Library = loadfile("idk/Library.lua")()
+local Library = loadfile("Breeze/Library.lua")()
 
 local games = {
     ["bedwars"] = {6872274481, 8444591321, 8560631822},
@@ -9,7 +9,9 @@ local games = {
 for gamename, v in games do
     for _, id in v do
         if game.PlaceId == id then
-            loadfile("idk/games/"..gamename..".lua")()
+            loadfile("Breeze/games/"..gamename..".lua")()
+        else
+            loadfile("Breeze/ganmes/Universal.lua")()
         end
     end
 end

@@ -16,7 +16,7 @@ SGui.ResetOnSpawn = false
 local Config = {}
 local ConfigSys = {
 	canSave = true,
-	file = 'idk/configs/'..game.PlaceId..'.json',
+	file = 'Breeze/configs/'..game.PlaceId..'.json',
 	saveConfig = function(self)
 		if RunService:IsStudio() then return end
 		if not self.canSave then return end
