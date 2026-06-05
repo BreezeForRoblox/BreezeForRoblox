@@ -1,6 +1,6 @@
-![icon](https://github.com/BreezeForRoblox/BreezeForRoblox.github.io/blob/main/images/logo_full.svg)
+# ![icon](https://github.com/BreezeForRoblox/BreezeForRoblox.github.io/blob/main/images/logo_full.svg)
 
-## Script
+## Loadstring
 ```luau
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BreezeForRoblox/BreezeForRoblox/main/Installer.lua", true))()
 ```
