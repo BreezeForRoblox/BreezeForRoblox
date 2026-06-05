@@ -1,4 +1,7 @@
 # ![icon](https://github.com/BreezeForRoblox/BreezeForRoblox.github.io/blob/main/images/logo_full.svg)
+<h2 align="center">
+  A Roblox script built from the ground up for your precise needs!
+</h2>
 
 ## Loadstring
 ```luau
@@ -6,8 +9,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BreezeForRoblox/Breez
 ```
 
 ## Contributers
-@spring67 - Gui Libary Inspiration
-@sus - Gui Libary, CatWare Base.
-
-## Developers
-@vxrm - Project Lead/Main Developer
+@vxrm - Project Maintainer
