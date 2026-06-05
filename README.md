@@ -1,8 +1,8 @@
 <h1 align="center">
  <img src="https://raw.githubusercontent.com/BreezeForRoblox/BreezeForRoblox.github.io/refs/heads/main/images/logo_full.svg" alt="Logo">
- <h3>
+ <p>
   A Roblox script built from the ground up for your precise needs!
-</h3>
+</p>
 </h1>
 
 ## Usage
