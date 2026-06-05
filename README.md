@@ -1,5 +1,5 @@
 <h2 align="center">
-  # ![icon](https://github.com/BreezeForRoblox/BreezeForRoblox.github.io/blob/main/images/logo_full.svg)
+  ![icon](https://github.com/BreezeForRoblox/BreezeForRoblox.github.io/blob/main/images/logo_full.svg)
   A Roblox script built from the ground up for your precise needs!
 </h2>
 
