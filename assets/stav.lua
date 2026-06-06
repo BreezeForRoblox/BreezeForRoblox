@@ -167,7 +167,7 @@ lib.library.CreateWindow = function(txt)
 	table.insert(lib.library, inputService.InputBegan:Connect(function(key, gpe)
 		if gpe then return end
 		
-		if key.KeyCode == Enum.KeyCode.RightShift then
+		if key.KeyCode == Enum.KeyCode.Backquote then
 			WindowFrame.Visible = not WindowFrame.Visible
 		end
 	end))
